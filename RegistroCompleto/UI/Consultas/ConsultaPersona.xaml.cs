@@ -20,6 +20,7 @@ namespace RegistroCompleto.UI.Consultas
         public Consulta()
         {
             InitializeComponent();
+
         }
     }
 }

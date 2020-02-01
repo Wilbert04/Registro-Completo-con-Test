@@ -17,10 +17,10 @@
         <TextBox HorizontalAlignment="Left" Margin="251,112,0,0" Text="TextBox" TextWrapping="Wrap" VerticalAlignment="Top" Width="148" Height="22"/>
         <TextBox HorizontalAlignment="Left" Margin="251,164,0,0" Text="TextBox" TextWrapping="Wrap" VerticalAlignment="Top" Width="148" Height="23"/>
         <TextBox HorizontalAlignment="Left" Margin="251,213,0,0" Text="TextBox" TextWrapping="Wrap" VerticalAlignment="Top" Width="148" Height="23"/>
-        <Button Content="Nuevo" HorizontalAlignment="Left" Margin="133,309,0,0" VerticalAlignment="Top" Click="Button_Nuevo" Width="91" Height="25" AutomationProperties.Name="ButtonNuevo"/>
-        <Button Content="Guardar" HorizontalAlignment="Left" Margin="273,309,0,0" VerticalAlignment="Top" Click="Button_Guardar" Width="94" RenderTransformOrigin="-1.096,1.789" Height="25"/>
+        <Button Content="Nuevo" HorizontalAlignment="Left" Margin="125,353,0,0" VerticalAlignment="Top" Click="Button_Nuevo" Width="91" Height="25" AutomationProperties.Name="ButtonNuevo"/>
+        <Button Content="Guardar" HorizontalAlignment="Left" Margin="265,353,0,0" VerticalAlignment="Top" Click="Button_Guardar" Width="94" RenderTransformOrigin="-1.096,1.789" Height="25"/>
         <Button x:Name="Buscar" Content="Buscar" HorizontalAlignment="Left" Margin="445,6,0,0" VerticalAlignment="Top" Click="Button_Buscar" AutomationProperties.Name="Buscar" Width="94" Height="25"/>
-        <Button x:Name="Eliminar" Content="Eliminar" HorizontalAlignment="Left" Margin="423,309,0,0" VerticalAlignment="Top" Click="Button_Eliminar" AutomationProperties.Name="Eliminar" Width="94" Height="25"/>
+        <Button x:Name="Eliminar" Content="Eliminar" HorizontalAlignment="Left" Margin="415,353,0,0" VerticalAlignment="Top" Click="Button_Eliminar" AutomationProperties.Name="Eliminar" Width="94" Height="25"/>
         <TextBox HorizontalAlignment="Left" Margin="251,8,0,0" Text="TextBox" TextWrapping="Wrap" VerticalAlignment="Top" Width="148" Height="22"/>
         <TextBox HorizontalAlignment="Left" Margin="251,56,0,0" Text="TextBox" TextWrapping="Wrap" VerticalAlignment="Top" Width="148" Height="23"/>
         <TextBox HorizontalAlignment="Left" Margin="251,112,0,0" Text="TextBox" TextWrapping="Wrap" VerticalAlignment="Top" Width="148" Height="22"/>
@@ -37,6 +37,10 @@
                 <ImageBrush/>
             </DatePicker.Background>
         </DatePicker>
+        <Label Content="Balance" HorizontalAlignment="Left" Margin="104,297,0,0" VerticalAlignment="Top" RenderTransformOrigin="0.475,2.261" FontWeight="Bold" Height="33" Width="72"/>
+        <TextBox HorizontalAlignment="Left" Margin="251,302,0,0" Text="TextBox" TextWrapping="Wrap" VerticalAlignment="Top" Width="148" Height="23"/>
+        <TextBox HorizontalAlignment="Left" Margin="251,302,0,0" Text="TextBox" TextWrapping="Wrap" VerticalAlignment="Top" Width="148" Height="23"/>
+        <TextBox x:Name="DireccionTextBox_Copy" HorizontalAlignment="Left" Margin="251,302,0,0" TextWrapping="Wrap" VerticalAlignment="Top" Width="179" AutomationProperties.Name="DireccionTextBox" Height="23"/>
 
     </Grid>
 </Window>

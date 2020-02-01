@@ -12,6 +12,7 @@ namespace RegistroCompleto.DAL
     {
      
         public DbSet<Persona> Registro{ get; set; }
+        public DbSet<Inscripciones> Inscripcion { get; set; }
 
         protected override void OnConfiguring(DbContextOptionsBuilder optionsBuilder)   // PROPIEDAD QUE GUARDARA EN LA BASE DB
         {

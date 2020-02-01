@@ -5,7 +5,7 @@
         xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
         xmlns:local="clr-namespace:RegistroCompleto"
         mc:Ignorable="d"
-        Title="Registro" Height="321" Width="519">
+        Title="Registro de personas" Height="321" Width="519">
     <Grid x:Name="Registro" Height="711" HorizontalAlignment="Left" Width="1171" RenderTransformOrigin="0.5,0.5" AutomationProperties.Name="Registro" AutomationProperties.IsOffscreenBehavior="Default" Visibility="Visible">
         <Grid.Background>
             <LinearGradientBrush EndPoint="0.5,1" StartPoint="0.5,0">
@@ -14,18 +14,27 @@
             </LinearGradientBrush>
         </Grid.Background>
         <Grid.ColumnDefinitions>
-            <ColumnDefinition Width="43*"/>
-            <ColumnDefinition Width="66*"/>
-            <ColumnDefinition Width="15*"/>
-            <ColumnDefinition Width="30*"/>
-            <ColumnDefinition Width="18*"/>
-            <ColumnDefinition Width="11*"/>
-            <ColumnDefinition Width="58*"/>
-            <ColumnDefinition Width="39*"/>
-            <ColumnDefinition Width="110*"/>
-            <ColumnDefinition Width="24*"/>
-            <ColumnDefinition Width="823*"/>
+            <ColumnDefinition Width="20*"/>
+            <ColumnDefinition Width="21*"/>
+            <ColumnDefinition Width="63*"/>
+            <ColumnDefinition Width="0*"/>
+            <ColumnDefinition Width="14*"/>
+            <ColumnDefinition Width="28*"/>
+            <ColumnDefinition Width="17*"/>
+            <ColumnDefinition Width="10*"/>
+            <ColumnDefinition Width="55*"/>
+            <ColumnDefinition Width="37*"/>
+            <ColumnDefinition Width="104*"/>
+            <ColumnDefinition Width="23*"/>
+            <ColumnDefinition Width="779*"/>
         </Grid.ColumnDefinitions>
+        <Label Content="Consultar" Grid.Column="2" HorizontalAlignment="Left" Margin="0,33,0,0" VerticalAlignment="Top" Height="26" Width="88" Grid.ColumnSpan="4"/>
+        <ComboBox Grid.ColumnSpan="6" Grid.Column="4" HorizontalAlignment="Left" Margin="10,35,0,0" VerticalAlignment="Top" Width="120" SelectionChanged="ConsultaCombobox" AutomationProperties.Name="ConsultaCombobox">
+            <ComboBoxItem Content="Registro de personas"/>
+            <ComboBoxItem Content="Registro de inscripción"/>
+            <ComboBoxItem/>
+            <ComboBoxItem/>
+        </ComboBox>
 
     </Grid>
 </Window>

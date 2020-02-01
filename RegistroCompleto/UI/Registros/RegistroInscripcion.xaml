@@ -14,12 +14,11 @@
         <Label Content="Monto" HorizontalAlignment="Left" Margin="85,275,0,0" VerticalAlignment="Top"/>
         <Label Content="Balance" HorizontalAlignment="Left" Margin="84,324,0,0" VerticalAlignment="Top"/>
         <TextBox HorizontalAlignment="Left" Margin="215,80,0,0" TextWrapping="Wrap" VerticalAlignment="Top" Width="120" AutomationProperties.Name="IdTextBox"/>
-        <TextBox HorizontalAlignment="Left" Margin="215,283,0,0" TextWrapping="Wrap" VerticalAlignment="Top" Width="120" TextChanged="TextBox_TextChanged"/>
-        <TextBox HorizontalAlignment="Left" Margin="215,238,0,0" TextWrapping="Wrap" VerticalAlignment="Top" Width="120"/>
-        <TextBox HorizontalAlignment="Left" Margin="215,186,0,0" TextWrapping="Wrap" VerticalAlignment="Top" Width="120"/>
-        <TextBox HorizontalAlignment="Left" Margin="215,132,0,0" TextWrapping="Wrap" VerticalAlignment="Top" Width="120" AutomationProperties.Name="FechaTextBox"/>
-        <TextBox HorizontalAlignment="Left" Margin="215,332,0,0" TextWrapping="Wrap" VerticalAlignment="Top" Width="120"/>
-        <Button Content="Guardar" HorizontalAlignment="Left" Margin="275,391,0,0" VerticalAlignment="Top" RenderTransformOrigin="0.5,0.5" Width="72">
+        <TextBox HorizontalAlignment="Left" Margin="215,283,0,0" TextWrapping="Wrap" VerticalAlignment="Top" Width="120" TextChanged="TextBox_TextChanged" AutomationProperties.Name="MontoTextBox"/>
+        <TextBox HorizontalAlignment="Left" Margin="215,238,0,0" TextWrapping="Wrap" VerticalAlignment="Top" Width="120" AutomationProperties.Name="ComentarioTextBox"/>
+        <TextBox HorizontalAlignment="Left" Margin="215,181,0,0" TextWrapping="Wrap" VerticalAlignment="Top" Width="120" AutomationProperties.Name="PersonaIdTextBox"/>
+        <TextBox HorizontalAlignment="Left" Margin="215,332,0,0" TextWrapping="Wrap" VerticalAlignment="Top" Width="120" AutomationProperties.Name="BalanceTextBox"/>
+        <Button Content="Guardar" HorizontalAlignment="Left" Margin="275,391,0,0" VerticalAlignment="Top" RenderTransformOrigin="0.5,0.5" Width="72" Click="GuardarButton">
             <Button.RenderTransform>
                 <TransformGroup>
                     <ScaleTransform/>
@@ -29,9 +28,10 @@
                 </TransformGroup>
             </Button.RenderTransform>
         </Button>
-        <Button Content="Eliminar" HorizontalAlignment="Left" Margin="424,391,0,0" VerticalAlignment="Top" Width="74"/>
-        <Button Content="Nuevo" HorizontalAlignment="Left" Margin="120,391,0,0" VerticalAlignment="Top" Width="71"/>
+        <Button Content="Eliminar" HorizontalAlignment="Left" Margin="424,391,0,0" VerticalAlignment="Top" Width="74" Click="Button_Click_2"/>
+        <Button Content="Nuevo" HorizontalAlignment="Left" Margin="120,391,0,0" VerticalAlignment="Top" Width="71" Click="NuevoButton"/>
         <Button Content="Buscar" HorizontalAlignment="Left" Margin="447,83,0,0" VerticalAlignment="Top"/>
+        <DatePicker HorizontalAlignment="Left" Margin="215,121,0,0" VerticalAlignment="Top" AutomationProperties.Name="FechaDate"/>
 
     </Grid>
 </Window>

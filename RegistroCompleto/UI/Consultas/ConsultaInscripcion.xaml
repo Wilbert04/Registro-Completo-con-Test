@@ -15,7 +15,7 @@
         <DatePicker HorizontalAlignment="Left" Margin="174,73,0,0" VerticalAlignment="Top"/>
         <ComboBox HorizontalAlignment="Left" Margin="334,73,0,0" VerticalAlignment="Top" Width="171"/>
         <TextBox HorizontalAlignment="Left" Margin="523,73,0,0" Text="TextBox" TextWrapping="Wrap" VerticalAlignment="Top" Width="285" Height="24"/>
-        <Button Content="Consulta" HorizontalAlignment="Left" Margin="828,73,0,0" VerticalAlignment="Top" Height="27" Width="112"/>
+        <Button Content="Consulta" HorizontalAlignment="Left" Margin="828,73,0,0" VerticalAlignment="Top" Height="27" Width="112" Click="Button_Click"/>
         <DataGrid Margin="10,119,10,25"/>
 
     </Grid>

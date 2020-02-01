@@ -1,5 +1,6 @@
 ﻿using RegistroCompleto.BLL;
 using RegistroCompleto.Entidades;
+using RegistroCompleto.UI.Registros;
 using System;
 using System.Collections.Generic;
 using System.Linq;
@@ -14,6 +15,7 @@ using System.Windows.Media;
 using System.Windows.Media.Imaging;
 using System.Windows.Navigation;
 using System.Windows.Shapes;
+using RegistroCompleto.UI;
 
 namespace RegistroCompleto
 {
@@ -27,6 +29,20 @@ namespace RegistroCompleto
             InitializeComponent();
         }
 
-        
+        private void ConsultaCombobox(object sender, SelectionChangedEventArgs e)
+        {
+            switch (ConsultaCombobox.SelectedIndex)
+            {
+                case 0:
+                    RegistroPersona registro = new RegistroPersona();
+                    registro.Show();
+                    break;
+                case 1:
+                    RegistroInscripcion inscricion = new RegistroInscripcion();
+                    inscricion.Show();
+                    break;
+              
+            }
+        }
     }
 }

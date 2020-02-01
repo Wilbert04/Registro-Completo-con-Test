@@ -13,10 +13,10 @@
         <Label Content="Criterio" HorizontalAlignment="Left" Margin="541,29,0,0" VerticalAlignment="Top"/>
         <DatePicker HorizontalAlignment="Left" Margin="28,73,0,0" VerticalAlignment="Top"/>
         <DatePicker HorizontalAlignment="Left" Margin="188,73,0,0" VerticalAlignment="Top"/>
-        <ComboBox HorizontalAlignment="Left" Margin="350,73,0,0" VerticalAlignment="Top" Width="171"/>
-        <TextBox HorizontalAlignment="Left" Margin="543,73,0,0" TextWrapping="Wrap" VerticalAlignment="Top" Width="265" Height="24"/>
-        <Button Content="Consulta" HorizontalAlignment="Left" Margin="828,73,0,0" VerticalAlignment="Top" Height="27" Width="112"/>
+        <ComboBox HorizontalAlignment="Left" Margin="350,73,0,0" VerticalAlignment="Top" Width="171" AutomationProperties.Name="FiltroCombobox"/>
+        <TextBox HorizontalAlignment="Left" Margin="543,73,0,0" TextWrapping="Wrap" VerticalAlignment="Top" Width="265" Height="24" AutomationProperties.Name="CriterioTextBox"/>
         <DataGrid Margin="28,119,24,25"/>
+        <Button Content="Consulta" HorizontalAlignment="Left" Margin="836,73,0,0" VerticalAlignment="Top" Width="90" AutomationProperties.Name="ConsultaButton"/>
 
     </Grid>
 </Window>

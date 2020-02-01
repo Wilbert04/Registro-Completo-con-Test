@@ -13,3 +13,13 @@ CREATE TABLE Registro
 
 );
 
+CREATE TABLE Inscripcion
+(
+	InscripcionId int primary key identity,
+	Fecha datetime,
+	PersonaId int,
+	Comentario varchar(30),
+	Monto varchar(15),
+	Balance varchar(15),
+);
+
