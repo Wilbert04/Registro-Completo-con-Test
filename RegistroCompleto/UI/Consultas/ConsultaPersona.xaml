@@ -10,7 +10,7 @@
         <Label Content="Desde" HorizontalAlignment="Left" Margin="28,29,0,0" VerticalAlignment="Top"/>
         <Label Content="Hasta" HorizontalAlignment="Left" Margin="188,29,0,0" VerticalAlignment="Top"/>
         <Label Content="Filtro" HorizontalAlignment="Left" Margin="350,29,0,0" VerticalAlignment="Top"/>
-        <Label Content="Criterio" HorizontalAlignment="Left" Margin="543,29,0,0" VerticalAlignment="Top"/>
+        <Label Content="Criterio" HorizontalAlignment="Left" Margin="541,29,0,0" VerticalAlignment="Top"/>
         <DatePicker HorizontalAlignment="Left" Margin="28,73,0,0" VerticalAlignment="Top"/>
         <DatePicker HorizontalAlignment="Left" Margin="188,73,0,0" VerticalAlignment="Top"/>
         <ComboBox HorizontalAlignment="Left" Margin="350,73,0,0" VerticalAlignment="Top" Width="171"/>

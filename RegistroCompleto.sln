@@ -3,7 +3,9 @@ Microsoft Visual Studio Solution File, Format Version 12.00
 # Visual Studio Version 16
 VisualStudioVersion = 16.0.29709.97
 MinimumVisualStudioVersion = 10.0.40219.1
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "RegistroCompleto", "RegistroCompleto\RegistroCompleto.csproj", "{65835C41-650E-4891-91A9-B9BC1CD8DD54}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "RegistroCompleto", "RegistroCompleto\RegistroCompleto.csproj", "{65835C41-650E-4891-91A9-B9BC1CD8DD54}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "RegistroCompletoTests", "RegistroCompletoTests\RegistroCompletoTests.csproj", "{654B4CA7-044D-470C-A00D-1F186B79B936}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
@@ -15,6 +17,10 @@ Global
 		{65835C41-650E-4891-91A9-B9BC1CD8DD54}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{65835C41-650E-4891-91A9-B9BC1CD8DD54}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{65835C41-650E-4891-91A9-B9BC1CD8DD54}.Release|Any CPU.Build.0 = Release|Any CPU
+		{654B4CA7-044D-470C-A00D-1F186B79B936}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{654B4CA7-044D-470C-A00D-1F186B79B936}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{654B4CA7-044D-470C-A00D-1F186B79B936}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{654B4CA7-044D-470C-A00D-1F186B79B936}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
